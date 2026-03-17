@@ -1,161 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-    <head>
-        <!-- META -->
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <!-- META -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!-- LINK -->
-        <link rel="stylesheet" href="./styles/style.css">
-        <link rel="stylesheet" href="mediaqueries/mediaqueries.css">
-        <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <!-- LINK -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="mediaqueries/mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico" />
 
-        <!-- FONTS -->
+    <!-- FONTS -->
 
-        <!-- SHANTELL SANS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- SHANTELL SANS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
 
-        <!-- NUNITO -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <!-- NUNITO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet" />
 
-        <title>Thibaut JULIEN</title>
+    <title>Thibaut JULIEN</title>
 
-        <!-- SCRIPT -->
-        <script type="text/javascript" src="scripts/reveal.js" defer></script>
-        <script type="text/javascript" src="scripts/typewriter.js" defer></script>
-    </head>
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="scripts/reveal.js" defer></script>
+    <script type="text/javascript" src="scripts/typewriter.js" defer></script>
+  </head>
 
-
-    <body>
-        <header>
-            <!-- Announce -->
-            <!-- <div class="marquee-container">
+  <body>
+    <header>
+      <!-- Announce -->
+      <!-- <div class="marquee-container">
                 <div class="marquee">Please note, the site is not completely finished. It is still in development. You may have issues viewing on small screens.</div>
             </div> -->
 
-            <nav>
-                <!-- Logo -->
-                <div class="nav-logo">
-                    <a href="index.html">
-                        <img src="./images/logo_blanc_tj.png">
-                    </a>
-                </div>
+      <nav>
+        <!-- Logo -->
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="./images/logo_blanc_tj.png" />
+          </a>
+        </div>
 
-                <!-- Menu -->
-                <ul class="nav-links">
-                    <li class="link"><a href="#AboutMe">About Me</a></li>
-                    <li class="link"><a href="#Projects">My Projects</a></li>
-                    <!-- <li class="link"><a href="./twitch/mytwitch.html">Mon Twitch</a></li> -->
-                </ul>
+        <!-- Menu -->
+        <ul class="nav-links">
+          <li class="link"><a href="#AboutMe">About Me</a></li>
+          <li class="link"><a href="#Projects">My Projects</a></li>
+          <!-- <li class="link"><a href="./twitch/mytwitch.html">Mon Twitch</a></li> -->
+        </ul>
 
-                <!-- Button "Contact Me" -->
-                <a href="#ContactMe" class="btn">Contact Me</a>
-            </nav>
+        <!-- Button "Contact Me" -->
+        <a href="#ContactMe" class="btn">Contact Me</a>
+      </nav>
+    </header>
 
-        </header>
+    <!-- Article below header NAV -->
+    <article>
+      <div class="container-header reveal">
+        <div class="container-header-textes typewriter-container" data-text="&lt;h1&gt;Hi, I'm Thibaut&lt;/h1&gt;">
+          <h1 class="typewriter-text"></h1>
+          <p>Graphic Designer & Developer Apprentice</p>
 
-        <!-- Article below header NAV -->
-        <article>
+          <nav class="nav-header-socials">
+            <a href="https://www.behance.net/thibautjulien2" target="_blank"><img src="./images/reseaux/behance.png" /></a>
+            <a href="https://discord.gg/aU6FvMbVsR" target="_blank"><img src="./images/reseaux/discorde.png" /></a>
+            <a href="https://github.com/Senlwoh" target="_blank"><img src="./images/reseaux/github.png" /></a>
+            <a href="https://www.twitch.tv/howlnes" target="_blank"><img src="./images/reseaux/tic.png" /></a>
+          </nav>
+        </div>
 
-            <div class="container-header reveal">
+        <div class="container-header-image">
+          <img src="./images/photo-profil.png" />
+        </div>
+      </div>
+    </article>
 
-                <div class="container-header-textes typewriter-container" data-text="&lt;h1&gt;Hi, I'm Thibaut&lt;/h1&gt;">
-                    <h1 class="typewriter-text"></h1>
-                    <p>Graphic Designer & Developer Apprentice</p>
+    <!-- Article "About Me" -->
+    <article>
+      <div class="container-aboutme reveal" id="AboutMe">
+        <div class="wrapper">
+          <h1>About Me</h1>
 
-                    <nav class="nav-header-socials">
+          <p>
+            Passionate about technology and development for the past 5 years, I am a graphic designer specialized in web design and currently undergoing training to become a web developer. At present,
+            I focus solely on front-end development. By the end of my training, my expertise will cover the entire project lifecycle, from graphic design to production. I enjoy tackling challenges by
+            creating innovative and effective solutions. <br /><br />
+            My goal ? To transform ideas into functional and aesthetically pleasing digital products. I believe in the importance of user experience, performance, and code quality. Every project is an
+            opportunity for me to learn, grow, and contribute to a better digital world.
+            <br /><br />
+            Outside of coding, I enjoy reading, staying updated with new technologies and their updates, outdoor activities, and spending time watching creative content, among other interests. All
+            these activities help nourish my creativity and approach to projects.
+          </p>
+        </div>
+      </div>
+    </article>
 
-                        <a href="https://www.behance.net/thibautjulien2" target="_blank"><img src="./images/reseaux/behance.png"></a>
-                        <a href="https://discord.gg/aU6FvMbVsR" target="_blank"><img src="./images/reseaux/discorde.png"></a>
-                        <a href="https://github.com/Senlwoh" target="_blank"><img src="./images/reseaux/github.png"></a>
-                        <a href="https://www.twitch.tv/howlnes" target="_blank"><img src="./images/reseaux/tic.png"></a>
+    <!-- Article "My Projects" -->
+    <article>
+      <div class="container-projects reveal" id="Projects">
+        <div class="wrapper">
+          <h1>My Projects</h1>
 
-                    </nav>
-                </div>
+          <div class="card-container">
+            <!-- CARD ONE -->
+            <div class="card">
+              <div class="card-front">
+                <img src="./images/cards/background-card-ouftivalet-100.jpg" alt="Valet" />
+              </div>
 
+              <div class="card-back">
+                <h2>Oufti Valet</h2>
+                <p>This project was my final year work for my graphic design training. I had to create an entire brand from scratch.</p>
 
-                <div class="container-header-image">
-                    <img src="./images/photo-profil.png">
-                </div>
-
+                <a href="./projects/ouftivalet.html"><img src="./images/fleche-droite.png" alt="arrow_right" /></a>
+              </div>
             </div>
 
-        </article>
+            <!-- CARD TWO -->
+            <div class="card">
+              <div class="card-front">
+                <img src="./images/cards/background-card-dawmio-100.jpg" alt="Valet" />
+              </div>
 
+              <div class="card-back">
+                <h2>Dawmio Studio</h2>
+                <p>This project is one of my dreams: the studio I would like to open. This company would offer various services, including graphic design and web development.</p>
 
-        <!-- Article "About Me" -->
-        <article>
-            
-            <div class="container-aboutme reveal" id="AboutMe">
-
-                <div class="wrapper">
-                    <h1>About Me</h1>
-                    
-                    <p>Passionate about technology and development for the past 5 years, I am a graphic designer specialized in web design and currently undergoing training to become a web developer. At present, I focus solely on front-end development. By the end of my training, my expertise will cover the entire project lifecycle, from graphic design to production. I enjoy tackling challenges by creating innovative and effective solutions.
-                    <br/><br/>
-                    My goal ? To transform ideas into functional and aesthetically pleasing digital products. I believe in the importance of user experience, performance, and code quality. Every project is an opportunity for me to learn, grow, and contribute to a better digital world.
-                    <br/><br/>  
-                    Outside of coding, I enjoy reading, staying updated with new technologies and their updates, outdoor activities, and spending time watching creative content, among other interests. All these activities help nourish my creativity and approach to projects.</p>
-                </div>
-                
+                <a href="./projects/dawmiostudio.html"><img src="./images/fleche-droite.png" alt="arrow_right" /></a>
+              </div>
             </div>
 
-        </article>
-
-
-        <!-- Article "My Projects" -->
-        <article>
-
-            <div class="container-projects reveal" id="Projects">
-
-                <div class="wrapper">
-
-                    <h1>My Projects</h1>
-
-                    <div class="card-container">
-
-                        <!-- CARD ONE -->
-                        <div class="card">
-
-                            <div class="card-front">
-                                <img src="./images/cards/background-card-ouftivalet-100.jpg" alt="Valet">
-                            </div>
-
-                            <div class="card-back">
-
-                                <h2>Oufti Valet</h2>
-                                <p>This project was my final year work for my graphic design training. I had to create an entire brand from scratch.</p>
-
-                                <a href="./projects/ouftivalet.html"><img src="./images/fleche-droite.png" alt="arrow_right"></a>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD TWO -->
-                        <div class="card">
-
-                            <div class="card-front">
-                                <img src="./images/cards/background-card-dawmio-100.jpg" alt="Valet">
-                            </div>
-
-                            <div class="card-back">
-
-                                <h2>Dawmio Studio</h2>
-                                <p>This project is one of my dreams: the studio I would like to open. This company would offer various services, including graphic design and web development.</p>
-
-                                <a href="./projects/dawmiostudio.html"><img src="./images/fleche-droite.png" alt="arrow_right"></a>
-
-                            </div>
-                        </div>
-
-
-                        <!-- CARD THREE -->
-                        <!-- <div class="card">
+            <!-- CARD THREE -->
+            <!-- <div class="card">
 
                             <div class="card-front">
                                 <img src="images/cards/background-card-ouftivalet-100.jpg" alt="Valet">
@@ -171,45 +149,31 @@
 
                             </div>
                         </div> -->
-                    </div>
-                        
+          </div>
+        </div>
+      </div>
+    </article>
 
-                </div>
+    <!-- Article (form) "Contact Me" -->
+    <article>
+      <div class="container-contact reveal" id="ContactMe">
+        <div class="wrapper">
+          <h1>Contact Me</h1>
 
-            </div>
+          <div class="form-container">
+            <p>You can email me to get more information on the topic of your choice, as well as to request a quote for a web project.</p>
 
-        </article>
+            <a href="mailto:thbtjulien21@gmail.com?subject=Demande%20information%20-%20Thibaut%20JULIEN"><button class="submit-btn">Send an email</button></a>
+          </div>
+        </div>
+      </div>
+    </article>
 
-        
-        <!-- Article (form) "Contact Me" -->
-        <article>
-
-            <div class="container-contact reveal" id="ContactMe">
-
-                <div class="wrapper">
-
-                    <h1>Contact Me</h1>
-
-                    <div class="form-container">
-
-                        <p>You can email me to get more information on the topic of your choice, as well as to request a quote for a web project.</p>
-
-                        <a href="mailto:thbtjulien21@gmail.com?subject=Demande%20information%20-%20Thibaut%20JULIEN"><button class="submit-btn">Send an email</button></a>
-                        
-                    </div>
-
-                </div>
-
-            </div>
-
-        </article>
-
-        
-        <!-- FOOTER -->
-        <footer>
-            <div class="container-footer">
-                <p>2024 © Developed with love by Thibaut Julien</p>
-            </div>
-        </footer>
-    </body>
+    <!-- FOOTER -->
+    <footer>
+      <div class="container-footer">
+        <p>2026 © Developed with love by Thibaut Julien</p>
+      </div>
+    </footer>
+  </body>
 </html>
